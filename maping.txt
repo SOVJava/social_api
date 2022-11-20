@@ -1,0 +1,16 @@
+1.
+	http://localhost:8087/register
+post json:
+	{
+		"login": "test",
+		"password": "test"
+	}
+
+2.
+	http://localhost:8087/auth
+post json:
+	{
+		"login": "test",
+		"password": "test"
+	}
+получаем токен, с которым выполняем запрос
